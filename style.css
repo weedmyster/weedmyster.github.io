@@ -1,0 +1,149 @@
+.header {
+    grid-area: header;
+    grid-gap: 40px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #000000;
+  color:#fff;
+  padding: 50px;
+  font-size: 200%;
+  text-align: center;
+}
+
+.content {
+    border: 3px solid white;
+    position: relative;
+    top: 50px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 50 px;
+    margin-bottom: 50px;
+}
+
+
+.fa-facebook-square {
+   color: #3b5998;
+} 
+
+.fa-linkedin-square {
+  color: #0077b5; 
+}
+
+.fa-twitter-square {
+  color: #1da1f2; 
+}
+
+.fa-instagram {
+  color: #fb3958; 
+}
+
+.recipe {
+  box-shadow: #1da1f2);
+  width: 200px;
+}
+
+img {
+  width: 30%;
+  height: auto;
+} 
+
+.img-circle {
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 150px;
+  margin: auto;
+  margin-top: 10px;
+
+}
+
+.item1 { grid-area: header; }
+.item2 { 
+  grid-area: menu; 
+  
+  background-color: HSL(222, 9.3%, 78.8%);
+  color:#000000;
+  padding: 20px;
+  justify-self: left;
+  position: relative;
+  left: 95px;
+  
+}
+.item3 { 
+  grid-area: main; 
+  background-color: RGB: (27, 27, 27);
+  
+  position: relative;
+  justify-self: left;
+  left: 100px;
+  margin:auto;
+  margin-right: 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    '.... menu menu main main main'
+    '.... menu menu main main main';
+  grid-gap: 15px;
+  padding: 10px;
+  
+}
+
+hr.a { 
+  border-style: solid;
+}
+
+.contain-flex {
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  float: left;
+  
+}
+
+
+#containerIntro h3,
+#containerIntro p {
+    display: inline;
+    vertical-align: top;
+    
+    font-weight:bold;
+}
+
+* {
+  margin:0;
+  padding:0
+}
+ul {
+  list-style-type: disc;
+  position:relative;
+}
+ul.list {
+  float:left;
+  width:450px;
+  margin:20px;
+}
+ul.list li {
+  width:150px;
+}
+ul.list ul{margin-bottom:20px}
+ul.list ul ul {
+  position:absolute;
+  top:0;
+  left:170px;
+  width:150px;
+}
+
+.spacing-line {
+  line-height: 30px;
+}
+
+.spacing-line-two {
+  line-height: 40px;
+}
+
